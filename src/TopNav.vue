@@ -2,7 +2,7 @@
     <div class="top-navbar">
         <div class="lg">
             <div class="flex overflow-hidden">
-                <div class="flex-none flex align-items-center justify-content-center font-bold px-5 "><img width="128" height="64" src="src/assets/logo.svg"></div>
+                <div class="flex-none flex align-items-center justify-content-center font-bold px-5 "><img width="128" height="64" :src="Logo"></div>
                 <div class="flex-grow-1 flex align-items-center justify-content-center font-bold px-5"></div>
                 <div class="flex-none flex align-items-center justify-content-center font-bold px-5">
                     <RouterLink to="/about">About</RouterLink>
@@ -17,7 +17,7 @@
         </div>
         <div class="top-navbar sm">
             <div class="flex overflow-hidden align-items-center justify-content-center">
-                <div class="flex-none flex align-items-center justify-content-center font-bold px-5 "><img src="src/assets/logo.svg"></div>
+                <div class="flex-none flex align-items-center justify-content-center font-bold px-5 "><img :src="Logo"></div>
             </div>
         </div>
     </div>
@@ -25,6 +25,7 @@
 
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
+import Logo from './assets/logo.svg';
 
 </script>
 

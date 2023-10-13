@@ -1,7 +1,7 @@
 import './assets/main.css'
 import './assets/particles.scss'
 import '/node_modules/primeflex/primeflex.css'
-import 'vue3-perfect-scrollbar/dist/vue3-perfect-scrollbar.css'
+import '/node_modules/vue3-perfect-scrollbar/dist/vue3-perfect-scrollbar.css'
 
 import router from './router'
 import PerfectScrollbar from 'vue3-perfect-scrollbar'
