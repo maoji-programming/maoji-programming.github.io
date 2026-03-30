@@ -6,8 +6,9 @@ body {
 }
 
 body {
-    background-image: url("./background.jpg");
+    background-image: url("/background.jpg");
     //background-color: #222034;
+    image-rendering: pixelated;
     background-size: cover;                      
     background-repeat: no-repeat;
     background-position: center center;
@@ -40,7 +41,6 @@ body {
       hsl(50, 100%, 80%) 10%,
       hsla(50, 100%, 80%, 0) 56%
     );
-    //background-image: url(src/assets/background.jpg);
     
     animation: fadein-frames 200ms infinite, scale-frames 2s infinite;
 

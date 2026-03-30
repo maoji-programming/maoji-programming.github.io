@@ -6,9 +6,9 @@
       <h2>E-mail</h2>
       {{about.contact?.email}}
       <h2>Github</h2>
-      {{about.contact?.github}}
+      <a :href="about.contact?.github">{{about.contact?.github}}</a>
       <h2>Linkedin</h2>
-      {{about.contact?.linkedin}}
+      <a :href="about.contact?.linkedin">{{about.contact?.linkedin}}</a>
     </div>
     <div class="tab">
       <h1>Experience</h1>
@@ -89,6 +89,15 @@
 </script>
 
 <style>
+    a{
+        color: #5fcde4;
+        transition: 0.5s;
+    }
+    @media (hover: hover) {
+        a:hover {
+            color: #FF8C00;
+        }
+    }
     .ps {
       height: 100%;
     }

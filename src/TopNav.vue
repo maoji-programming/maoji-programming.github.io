@@ -29,13 +29,26 @@ import Logo from './assets/logo.svg';
 
 </script>
 
-<style>
+<style scoped>
     .logo{
         left: 0px
     }
     .item-set {
         right: 0px   
     }
+    a{
+        color: #5fcde4;
+        text-decoration: none;
+        font-size: 20px;
+        transition: 0.5s;
+    }
+    @media (hover: hover) {
+        a:hover {
+            color: #FF8C00;
+            font-size: 28px;
+        }
+    }
+
     @media (min-width: 769px){
         .top-navbar .lg {
             top:0px;
