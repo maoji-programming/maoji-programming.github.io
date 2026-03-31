@@ -24,6 +24,8 @@ jobs:
 
     - name: Build
       run: npm run build
+      env:
+        VITE_MAOJI_STUDIO_API_SITE: ${{ vars.VITE_MAOJI_STUDIO_API_SITE }}
 
     - name: Deploy to GitHub Pages
       if: github.ref == 'refs/heads/main'
