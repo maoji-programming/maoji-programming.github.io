@@ -2,9 +2,6 @@
 <template lang="pug">
 body
 .container
-    - for (i = 1; i <= 100; i++)
-      .circle-container
-        .circle
 </template>
 
 <style scoped>

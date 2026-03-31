@@ -1,28 +1,23 @@
 @import './base.css';
 
-#app {
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-image: url('/your-background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
 
-  /*
-  margin: 0 auto;
-  padding: 2rem;
-*/
+#app {
+  min-height: 100vh;
   font-weight: normal;
 }
 
-a{
-  color: #5fcde4;
-  text-decoration: none;
-  font-size: 20px;
-  transition: 0.5s;
-}
-h1{
+h1 {
   color: #FF8C00;
 }
 
-@media (hover: hover) {
-  a:hover {
-    color: #FF8C00;
-    font-size: 28px;
-  }
-}
+
 
