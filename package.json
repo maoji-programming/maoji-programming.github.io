@@ -5,7 +5,7 @@
   "homepage":"https://maoji-studio.ca",
   "scripts": {
     "dev": "vite",
-    "build": "vite build & echo maoji-studio.ca > ./dist/CNAME",
+    "build": "vite build && mkdir -p dist && echo maoji-studio.ca > ./dist/CNAME",
     "preview": "vite preview",
     "deploy":"gh-pages -d dist"
   },
