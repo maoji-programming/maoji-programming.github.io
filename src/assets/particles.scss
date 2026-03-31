@@ -75,7 +75,7 @@ body {
 
   @for $i from 1 through $particleNum {
     &:nth-child(#{$i}) {
-      $circleSize: random($particleWidth);
+      $circleSize: random($particleWidth) * 1px;
       width: $circleSize + px;
       height: $circleSize + px;
 
